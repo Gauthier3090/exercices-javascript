@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    font-size: 15px;
+    background-color: #0072B5;
+    color: #FFF;
+    height: 100px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+table {
+    width: 700px;
+    border-collapse: collapse;
+    margin: auto auto 50px auto;
+}
+
+table > tr {
+    width: 150px;
+    height: 100px;
+}
+
+table > tr > td {
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    background-color: #0072B5;
+}
+
+th {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #9BB7D4;
+    font-size: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+table > tr > td > span {
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    vertical-align: middle;
+}
+
+.price {
+    display: block;
+    margin: 0 auto;
+    text-decoration: line-through;
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    width: 80%;
+    height: 40%;
+    background: none;
+    border: 1px solid #FFF;
+    font-size: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#custom-button-form {
+    width: 40%;
+    height: 20%;
+    background: none;
+    border: 1px solid #FFF;
+    font-size: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid #FFF;
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    visibility: hidden;
+    width: 500px;
+    height: 200px;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-header {
+    width: auto;
+    padding: 2px 16px;
+    height: 50px;
+    font-size: 45px;
+    background: none;
+    cursor: pointer;
+    color: #FFF;
+    display: flex;
+    border-collapse: collapse;
+    background: #9BB7D4;
+}
+
+.modal-header > div {
+    width: auto;
+}
+
+.modal-header > div.product {
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross {
+    color: red;
+}
+
+.modal-body {
+    height: 100%;
+    background: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: #0072B5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    margin: 25px auto;
+}
+
+form > h2 {
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+form > label > input {
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+form > label > input::placeholder {
+    color: #FFFFFF;
+}

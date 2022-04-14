@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0072B5;
+    height: 75px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.form-predict {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    background-color: #0072B5;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-person, #predict {
+    border: 1px solid #FFFFFF;
+    padding: 15px;
+    background: none;
+    width: 40%;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#name-person::placeholder {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+select {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid #9BB7D4;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #0072B5;
+    width: 50%;
+    height: 20%;
+    margin: auto 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    gap: 15px;
+}
